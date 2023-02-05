@@ -1,0 +1,25 @@
+View all notecards
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects notecard(s)
+2 - system displays notecard(s) details
+
+Alternative Flow(s)
+CLOSE NOTECARD DETAILS
+a3 - user selects close on page with specific notecard
+a4 - system displays notecard page
+
+-----------------------------------------------
+
+View all collections of notecards
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects specific set of notecards
+2 - system diplays notecard details with prev/next functionality
+
+Alternative Flow(s)
+CLOSE NOTECARD DETAILS
+a3 - user selects close on page with specific notecard
+a4 - system displays notecard page

@@ -1,0 +1,39 @@
+Find specific notecard collection
+Context - user logged in and on the notecard page
+
+Primary Flow
+1 - user enters search request into search box
+2 - system gets that set of notecards
+3 - system displays that set of notecards
+
+Alternative Flow(s)
+COULD NOT FIND NOTECARDS
+a2 - system gives message saying "no such notecard collection exists"
+return to step 1
+
+SEARCH REQUEST TIMES OUT
+a2 - system times out looking for notecard collection
+a3 - system pops up dialog asking if user would like to continue or refresh
+a4 - user selects continue button    | user selects refresh button
+a5 - system continues trying to load | system kills search & tries again
+
+-----------------------------------------------
+
+Find specific notecards among all notecards
+Context - user logged in and on the notecard page
+
+Primary Flow
+1 - user enters search request into search box
+2 - system gets specific notecards
+3 - system displays those specific notecards
+
+Alternative Flow(s)
+COULD NOT FIND NOTECARDS
+a2 - system gives message saying "no such notecard(s) exists"
+return to step 1
+
+SEARCH REQUEST TIMES OUT
+a2 - system times out looking for notecard collection
+a3 - system pops up dialog asking if user would like to continue or refresh
+a4 - user selects continue button    | user selects refresh button
+a5 - system continues trying to load | system kills search & tries again

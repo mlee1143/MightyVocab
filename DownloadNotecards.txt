@@ -1,0 +1,30 @@
+Download specific notecard collection(s)
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects specific notecard sets
+2 - user selects option to download those notecards
+3 - system downloads those to local device
+
+Alternative Flow(s)
+DOWNLOAD FAILS
+a2 - system fails to download notecards
+a3 - system asks user if they'd like to try again
+a4 - user agrees to try again
+return to step 3
+
+------------------------------------------
+
+Download all notecards
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects option to download all notecards
+2 - system downloads all notecards to local device
+
+Alternative Flow(s)
+DOWNLOAD FAILS
+a2 - system fails to download notecards
+a3 - system asks user if they'd like to try again
+a4 - user agrees to try again
+return to step 3

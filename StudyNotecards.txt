@@ -1,0 +1,38 @@
+Restudy notecards
+Context - user is logged in and within a set of notecards
+
+Primary Flow
+1 - user has marked some cards as "still don't know"
+2 - system takes those cards and adds to new collection
+3 - system presents new collection to user reshuffled
+
+-----------------------------------------------
+
+Study all created notecards
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects studyall notecards button
+2 - system displays all notecards to user with prev/next functionality
+
+Alternative Flow(s)
+SYSTEM FAILS TO DISPLAY (TIMEOUT)
+a2 - system times out and asks user to continue or refresh
+a3 - user clicks continue to try and display  | user clicks refresh
+a4 - system displays originally requested set | system terminates action
+
+-----------------------------------------------
+
+Study notecards by topic
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects option to study notecards by specific [topic]
+2 - system gives all sets of notecards matching that topic
+3 - system displays all notecards to user with prev/next functionality
+
+Alternative Flow(s)
+SYSTEM FAILS TO DISPLAY (TIMEOUT)
+a2 - system times out and asks user to continue or refresh
+a3 - user clicks continue to try and display  | user clicks refresh
+a4 - system displays originally requested set | system terminates action

@@ -1,0 +1,40 @@
+Create Notecard
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user selects create notecard button
+2 - system pulls up the functionality for a user to enter notecard
+3 - user enters notecard term and definition
+
+Alternative Flow(s)
+USER EDITS INFORMATION
+a4 - user wants to edit information previously saved to card
+a5 - user selects information on card in which they wish to edit
+a6 - system grants them permission to change card information
+a7 - user enters new card information
+a8 - system saves newly edited card
+
+CANCEL
+a2-3 - user wishes to cancel creation of notecard
+a4 - user selects off focus or directly selects cancel button
+a5 - system ends creation of card and does not save any entered information
+
+SYSTEM TIMES OUT
+a3 - system pops up dialog asking if user would like to continue or refresh
+a4 - user selects continue button    | user selects refresh button
+a5 - system continues trying to load | system tries again
+
+-----------------------------------------------
+
+Create collection of notecards
+Context - user is logged in and on the notecard page
+
+Primary Flow
+1 - user clicks create notecard set button
+2 - system pulls up functionality for user to enter multiple notecards
+
+Alternative Flow(s)
+SYSTEM TIMES OUT
+a4 - system pops up dialog asking if user would like to continue or refresh
+a5 - user selects continue button    | user selects refresh button
+a6 - system continues trying to load | system tries again

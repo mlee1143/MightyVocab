@@ -1,0 +1,31 @@
+View user statistics (study-time)
+Context - user is logged in and on the user statistics page
+
+Primary Flow
+1 - system displays old statistics
+2 - user clicks refresh my statistics button
+3 - system displays newest user study-time statistics
+
+Alternative Flow(s)
+TIMEOUT/HANGUP
+a3 - system takes longer than usual to load statistics
+a4 - system pops up dialog to user to ask if to continue waiting or refresh
+a5 - user clicks on refresh
+a6 - system reloads the study-time statistics
+
+-----------------------------------------------
+
+View user statistics (accuracy)
+Context - user is logged in and on the user statistics page
+
+Primary Flow
+1 - system displays old statistics
+2 - user clicks refresh my statistics button
+3 - system displays newest user study-time statistics
+
+Alternative Flow(s)
+TIMEOUT/HANGUP
+a3 - system takes longer than usual to load statistics
+a4 - system pops up dialog to user to ask if to continue waiting or refresh
+a5 - user clicks on refresh
+a6 - system reloads the study-time statistics
